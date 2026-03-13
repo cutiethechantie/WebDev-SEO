@@ -2,43 +2,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Форма обратной связи - Туроператор-онлайн</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
+<body class="page-body">
+    <header class="header-footer-block">
         <a href="index.html"><img src="logo.jpg" alt="Логотип нашего сайта" width="150"></a>
         <nav>
             <ul>
-                <li><a href="about.html">О нас</a></li>
-                <li><a href="form.html">Форма обратной связи</a></li>
+                <li><a href="about.html" class="nav-link">О нас</a></li>
+                <li><a href="form.html" class="nav-link">Форма обратной связи</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
         <h1>Анкета для подбора тура</h1>
-        <form action="#" method="get">
-            <div>
-                <label>ФИО заказчика: <input type="text" name="fio"></label>
+        <form action="#" method="get" class="form-wrapper">
+            <div class="form-row">
+                <label class="form-label">ФИО заказчика:</label>
+                <input type="text" name="fio" class="form-input-standard">
             </div>
-            <div>
-                <label>Количество туристов: <input type="text" name="tourists"></label>
+            <div class="form-row">
+                <label class="form-label">Количество туристов:</label>
+                <input type="text" name="tourists" class="form-input-standard">
             </div>
-            <div>
-                <label>Телефон: <input type="text" name="phone"></label>
+            <div class="form-row">
+                <label class="form-label">Телефон:</label>
+                <input type="text" name="phone" class="form-input-standard">
             </div>
-            <div>
-                <label>Адрес электронной почты: <input type="text" name="email"></label>
+            <div class="form-row">
+                <label class="form-label">Адрес электронной почты:</label>
+                <input type="text" name="email" class="form-input-standard">
             </div>
-            
-            <div>
-                <p>Желаемая звездность отеля (можно выбрать несколько):</p>
+            <div class="form-row">
+                <p class="form-label">Желаемая звездность отеля (можно выбрать несколько):</p>
                 <label><input type="checkbox" name="stars" value="5"> 5 звезд</label><br>
                 <label><input type="checkbox" name="stars" value="4"> 4 звезды</label><br>
                 <label><input type="checkbox" name="stars" value="3"> 3 звезды</label>
             </div>
-
-            <div>
-                <p>Выберите страну:</p>
+            <div class="form-row">
+                <p class="form-label">Выберите страну:</p>
                 <label><input type="radio" name="country" value="turkey"> Турция</label><br>
                 <label><input type="radio" name="country" value="egypt"> Египет</label><br>
                 <label><input type="radio" name="country" value="uae"> ОАЭ</label><br>
@@ -46,34 +48,30 @@
                 <label><input type="radio" name="country" value="thailand"> Таиланд</label><br>
                 <label><input type="radio" name="country" value="cuba"> Куба</label>
             </div>
-
-            <div>
-                <p>Отдаленность от моря:</p>
-                <select name="distance">
+            <div class="form-row">
+                <p class="form-label">Отдаленность от моря:</p>
+                <select name="distance" class="form-input-standard">
                     <option value="line1">1-ая линия</option>
                     <option value="line2">2-ая линия</option>
                     <option value="line3">3-я линия</option>
                 </select>
             </div>
-
-            <div>
-                <p>Пожелания к туру:</p>
-                <textarea rows="5" cols="40" wrap="soft" name="comments"></textarea>
+            <div class="form-row">
+                <p class="form-label">Пожелания к туру:</p>
+                <textarea rows="5" cols="40" wrap="soft" name="comments" class="form-input-standard"></textarea>
             </div>
-
-            <div>
+            <div class="form-row">
                 <br>
                 <input type="submit" value="Подобрать тур">
                 <input type="reset" value="Очистить форму">
             </div>
         </form>
     </main>
-
-    <footer>
+    <footer class="header-footer-block">
         <a href="https://miet.ru"><img src="miet-logo.jpg" alt="Официальный логотип НИУ МИЭТ" width="150"></a>
         <ul>
-            <li><a href="about.html">О нас</a></li>
-            <li><a href="form.html">Форма обратной связи</a></li>
+            <li><a href="about.html" class="nav-link">О нас</a></li>
+            <li><a href="form.html" class="nav-link">Форма обратной связи</a></li>
         </ul>
     </footer>
 </body>

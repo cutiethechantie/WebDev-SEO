@@ -1,0 +1,130 @@
+.page-body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.header-footer-block {
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: #0055a4;
+}
+
+.nav-link:link {
+    color: #0055a4;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:visited {
+    color: #003366;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ffaa00;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-link:active {
+    color: #ff0000;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.tour-card {
+    display: inline-block;
+    width: 300px;
+    height: 380px;
+    vertical-align: top;
+    text-align: center;
+    background-color: #fafafa;
+    margin: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.tour-card-img {
+    width: 280px;
+    height: 200px;
+    display: block;
+    margin: 10px auto 0 auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tour-card-title {
+    font-weight: bold;
+    color: #0055a4;
+    font-family: Arial, sans-serif;
+}
+
+.info-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.table-header-cell {
+    background-color: #e6f2ff;
+    color: #003366;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-bottom-width: 3px;
+    border-bottom-style: double;
+    border-color: #0055a4;
+    border-right-width: 3px;
+    border-right-style: double;
+}
+
+.table-data-cell {
+    padding: 8px;
+    text-align: left;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.form-wrapper {
+    width: 650px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: inline-block;
+    width: 220px;
+    font-weight: bold;
+    vertical-align: top;
+    font-family: Arial, sans-serif;
+}
+
+.form-input-standard {
+    width: 300px;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #999999;
+}
