@@ -2,15 +2,26 @@
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #333333;
+    margin: 0;
 }
 
 .header-footer-block {
     background-color: #f0f8ff;
-    text-align: center;
     padding: 20px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-color: #0055a4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
 }
 
 .nav-link:link {
@@ -41,21 +52,29 @@
     text-decoration: none;
 }
 
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
 .tour-card {
-    display: inline-block;
-    width: 300px;
+    min-width: 300px;
+    max-width: 400px;
     height: 380px;
-    vertical-align: top;
     text-align: center;
     background-color: #fafafa;
-    margin: 15px;
     border-width: 1px;
     border-style: solid;
     border-color: #dddddd;
+    flex-grow: 1;
 }
 
 .tour-card-img {
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
     height: 200px;
     display: block;
     margin: 10px auto 0 auto;
@@ -106,10 +125,9 @@
     border-width: 1px;
     border-style: solid;
     border-color: #cccccc;
-}
-
-.form-row {
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .form-label {
@@ -127,4 +145,12 @@
     border-width: 1px;
     border-style: solid;
     border-color: #999999;
+}
+
+.form-buttons {
+    align-self: flex-end;
+}
+
+.center-text {
+    text-align: center;
 }
