@@ -16,22 +16,22 @@
     </header>
     <main>
         <h1 class="center-text">Анкета для подбора тура</h1>
-        <form action="#" method="get" class="form-wrapper">
+        <form id="tour-form" action="#" method="get" class="form-wrapper">
             <div class="form-row">
                 <label class="form-label">ФИО заказчика:</label>
-                <input type="text" name="fio" class="form-input-standard">
+                <input type="text" id="fio" name="fio" class="form-input-standard">
             </div>
             <div class="form-row">
                 <label class="form-label">Количество туристов:</label>
-                <input type="text" name="tourists" class="form-input-standard">
+                <input type="text" id="tourists" name="tourists" class="form-input-standard">
             </div>
             <div class="form-row">
                 <label class="form-label">Телефон:</label>
-                <input type="text" name="phone" class="form-input-standard">
+                <input type="text" id="phone" name="phone" class="form-input-standard" placeholder="+7(XXX)XXX-XX-XX">
             </div>
             <div class="form-row">
                 <label class="form-label">Адрес электронной почты:</label>
-                <input type="text" name="email" class="form-input-standard">
+                <input type="text" id="email" name="email" class="form-input-standard">
             </div>
             <div class="form-row">
                 <p class="form-label">Желаемая звездность отеля (можно выбрать несколько):</p>
@@ -58,13 +58,15 @@
             </div>
             <div class="form-row">
                 <p class="form-label">Пожелания к туру:</p>
-                <textarea rows="5" cols="40" wrap="soft" name="comments" class="form-input-standard"></textarea>
+                <textarea id="comments" rows="5" cols="40" wrap="soft" name="comments" class="form-input-standard"></textarea>
             </div>
             <div class="form-buttons">
                 <input type="submit" value="Подобрать тур">
                 <input type="reset" value="Очистить форму">
             </div>
         </form>
+
+        <div id="results-area" class="results-container"></div>
     </main>
     <footer class="header-footer-block">
         <a href="https://miet.ru"><img src="miet-logo.jpg" alt="Официальный логотип НИУ МИЭТ" width="150"></a>
@@ -73,5 +75,7 @@
             <li class="nav-item"><a href="form.html" class="nav-link">Форма обратной связи</a></li>
         </ul>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>

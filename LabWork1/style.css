@@ -154,3 +154,20 @@
 .center-text {
     text-align: center;
 }
+
+.results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 650px;
+    margin: 20px auto;
+}
+
+.result-card {
+    background-color: #e6f2ff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0055a4;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
