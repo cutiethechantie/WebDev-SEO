@@ -63,13 +63,14 @@
 .tour-card {
     min-width: 300px;
     max-width: 400px;
-    height: 380px;
     text-align: center;
     background-color: #fafafa;
     border-width: 1px;
     border-style: solid;
     border-color: #dddddd;
     flex-grow: 1;
+    padding-bottom: 10px;
+    margin: 0;
 }
 
 .tour-card-img {
@@ -86,6 +87,7 @@
     font-weight: bold;
     color: #0055a4;
     font-family: Arial, sans-serif;
+    margin: 5px 0 0 0;
 }
 
 .info-table {
@@ -145,6 +147,13 @@
     border-width: 1px;
     border-style: solid;
     border-color: #999999;
+}
+
+.form-choices-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: Arial, sans-serif;
 }
 
 .form-buttons {

@@ -34,22 +34,26 @@
                 <input type="text" id="email" name="email" class="form-input-standard">
             </div>
             <div class="form-row">
-                <p class="form-label">Желаемая звездность отеля (можно выбрать несколько):</p>
-                <label><input type="checkbox" name="stars" value="5"> 5 звезд</label><br>
-                <label><input type="checkbox" name="stars" value="4"> 4 звезды</label><br>
-                <label><input type="checkbox" name="stars" value="3"> 3 звезды</label>
+                <label class="form-label">Желаемая звездность отеля:</label>
+                <div class="form-choices-wrapper">
+                    <label><input type="checkbox" name="stars" value="5"> 5 звезд</label>
+                    <label><input type="checkbox" name="stars" value="4"> 4 звезды</label>
+                    <label><input type="checkbox" name="stars" value="3"> 3 звезды</label>
+                </div>
             </div>
             <div class="form-row">
-                <p class="form-label">Выберите страну:</p>
-                <label><input type="radio" name="country" value="turkey"> Турция</label><br>
-                <label><input type="radio" name="country" value="egypt"> Египет</label><br>
-                <label><input type="radio" name="country" value="uae"> ОАЭ</label><br>
-                <label><input type="radio" name="country" value="maldives"> Мальдивы</label><br>
-                <label><input type="radio" name="country" value="thailand"> Таиланд</label><br>
-                <label><input type="radio" name="country" value="cuba"> Куба</label>
+                <label class="form-label">Выберите страну:</label>
+                <div class="form-choices-wrapper">
+                    <label><input type="radio" name="country" value="turkey"> Турция</label>
+                    <label><input type="radio" name="country" value="egypt"> Египет</label>
+                    <label><input type="radio" name="country" value="uae"> ОАЭ</label>
+                    <label><input type="radio" name="country" value="maldives"> Мальдивы</label>
+                    <label><input type="radio" name="country" value="thailand"> Таиланд</label>
+                    <label><input type="radio" name="country" value="cuba"> Куба</label>
+                </div>
             </div>
             <div class="form-row">
-                <p class="form-label">Отдаленность от моря:</p>
+                <label class="form-label">Отдаленность от моря:</label>
                 <select name="distance" class="form-input-standard">
                     <option value="line1">1-ая линия</option>
                     <option value="line2">2-ая линия</option>
@@ -57,7 +61,7 @@
                 </select>
             </div>
             <div class="form-row">
-                <p class="form-label">Пожелания к туру:</p>
+                <label class="form-label">Пожелания к туру:</label>
                 <textarea id="comments" rows="5" cols="40" wrap="soft" name="comments" class="form-input-standard"></textarea>
             </div>
             <div class="form-buttons">
